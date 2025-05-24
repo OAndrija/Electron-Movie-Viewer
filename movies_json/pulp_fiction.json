@@ -1,0 +1,11 @@
+{
+  "title": "Pulp Fiction",
+  "year": 1994,
+  "director": ["Quentin Tarantino"],
+  "score": 8.9,
+  "summary": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+  "categories": ["Crime", "Drama", "Black Comedy"],
+  "cast": ["John Travolta", "Uma Thurman", "Samuel L. Jackson"],
+  "imagePath": "resources/images/pulp_fiction.jpg",
+  "trailerUrl": "https://www.youtube.com/embed/s7EdQ4FqbhY?autoplay=1&mute=1"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "The Dark Knight",
+  "year": 2008,
+  "director": ["Christopher Nolan"],
+  "score": 9.0,
+  "summary": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, he sets out to dismantle the remaining criminal organizations. They soon find themselves prey to a reign of chaos unleashed by the Joker.",
+  "categories": ["Action", "Crime", "Drama", "Superhero"],
+  "cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+  "imagePath": "resources/images/dark_knight.jpg",
+  "trailerUrl": "https://www.youtube.com/embed/EXeTwQWrcwY?autoplay=1&mute=1"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Schindler's List",
+  "year": 1993,
+  "director": ["Steven Spielberg"],
+  "score": 9.0,
+  "summary": "In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+  "categories": ["Biography", "Drama", "History"],
+  "cast": ["Liam Neeson", "Ralph Fiennes", "Ben Kingsley"],
+  "imagePath": "resources/images/schindlers_list.jpg",
+  "trailerUrl": "https://www.youtube.com/embed/gG22XNhtnoY?autoplay=1&mute=1"
+}
