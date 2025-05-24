@@ -1,0 +1,60 @@
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+.tag {
+  background-color: #ddd;
+  color: black;
+}
+
+button {
+  background-color: #eee;
+  color: black;
+}
+
+:root {
+  --bg-brightness: 1;
+}
+
+.background-blur {
+  display: none;
+}
+
+.year {
+  font-size: 1rem;
+  color: gray;
+}
+
+.seperator {
+  font-size: 1rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: gray;
+}
+
+.director {
+  font-size: 1rem;
+  color: gray;
+}
+
+.background-gradient {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 200, 150, 0.6) 40%,
+    rgba(180, 220, 255, 0.5) 70%,
+    rgba(255, 255, 255, 0.9) 100%
+  );
+  filter: blur(100px) brightness(1.1);
+  opacity: 1;
+  pointer-events: none;
+}
+
+

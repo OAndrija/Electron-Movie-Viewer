@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Viewer</title>
+  <link id="theme-style" rel="stylesheet" href="styles/style-dark.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="background-gradient"></div>
+  <div class="background-blur">
+    <img src="resources/images/godfather_img.jpg" alt="Background" />
+    <div class="background-overlay"></div>
+  </div>
+
+  <div class="movie-container">
+    <div class="header">
+      <div class="title-section">
+        <h1 class="movie-title">The Godfather</h1>
+        <div class="year-director-section">
+          <span class="year">1972</span>
+          <span class="seperator"> | </span>
+          <span class="director">Francis Ford Coppola</span>
+        </div>
+
+      </div>
+      <div class="rating">
+        <span class="star">⭐</span>
+        <span class="score">9.2</span>
+        <span class="out-of">/10</span>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="media-row">
+        <div class="poster">
+          <img src="resources/images/godfather_img.jpg" alt="Movie Poster">
+        </div>
+        <div class="trailer">
+          <iframe 
+            src="https://www.youtube.com/embed/UaVTIH8mujA?autoplay=1&mute=1"
+            title="The Godfather Trailer"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+      <div class="details">
+        <p class="summary">
+          The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.
+        </p>
+
+        <div class="categories">
+          <span class="tag">Epic</span>
+          <span class="tag">Gangster</span>
+          <span class="tag">Tragedy</span>
+          <span class="tag">Crime</span>
+          <span class="tag">Drama</span>
+        </div>
+
+        <p class="cast"><strong>Cast:</strong> Marlon Brando, Al Pacino, James Caan</p>
+      </div>
+    </div>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>

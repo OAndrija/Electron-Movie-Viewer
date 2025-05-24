@@ -1,0 +1,72 @@
+body {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.tag {
+  background-color: #424242;
+  color: white;
+}
+
+button {
+  background-color: #333;
+  color: white;
+}
+
+.year {
+  font-size: 1rem;
+  color: rgb(175, 175, 175);
+}
+
+.seperator {
+  font-size: 1rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(175, 175, 175);
+}
+
+.director {
+  font-size: 1rem;
+  color: rgb(175, 175, 175);
+}
+
+:root {
+  --bg-brightness: 0.3;
+}
+
+.background-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.background-blur img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(40px) brightness(var(--bg-brightness));
+  transform: scale(1.1);
+}
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../resources/images/overlay-pattern.jpg'); 
+  background-repeat: repeat;
+  background-size: cover;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.background-gradient {
+  display: none;
+}
+
+
