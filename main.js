@@ -71,7 +71,6 @@ function createSettingsWindow() {
     settingsWindow.webContents.on('did-finish-load', () => {
         settingsWindow.webContents.send('theme-changed', currentTheme);
     });
-
 }
 
 ipcMain.on('open-settings', () => {
@@ -104,8 +103,6 @@ ipcMain.on('show-open-dialog', async () => {
         });
     }
 });
-
-
 
 app.whenReady().then(() => {
     createMainWindow();

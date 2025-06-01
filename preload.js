@@ -5,6 +5,6 @@ contextBridge.exposeInMainWorld('electronAPI', {
     setTheme: (theme) => ipcRenderer.send('set-theme', theme),
     onThemeChanged: (callback) => ipcRenderer.on('theme-changed', (_, theme) => callback(theme)),
     onMovieDataLoaded: (callback) => ipcRenderer.on('movie-data-loaded', (_, data) => callback(data)),
-    requestOpenDialog: () => ipcRenderer.send('show-open-dialog'), // expose dialog trigger
-    onRequestUpload: (callback) => ipcRenderer.on('request-upload', callback) // handle menu click
+    requestOpenDialog: () => ipcRenderer.send('show-open-dialog'),
+    onRequestUpload: (callback) => ipcRenderer.on('request-upload', callback)
 });
